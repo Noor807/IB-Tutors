@@ -1,0 +1,267 @@
+/* style.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background-color: #083866;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.h1-heading {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.img-1 {
+  display: block;
+  width: 100%;
+  max-height: 800px; /* adjust this as needed */
+  object-fit: cover;
+}
+
+.intro-text {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro-text h2 {
+  font-size: 26px;
+  color: #083866;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.intro-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.tutoring-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #e8f0fa;
+  padding: 30px;
+  border-radius: 8px;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.tutoring-section img.img-2 {
+  width: 100%;
+  max-width: 500px;
+  flex: 1 1 300px;
+}
+
+.tutoring-content {
+  flex: 2 1 400px;
+}
+
+.tutoring-content h2 {
+  font-size: 40px;
+  color: #083866;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.tutoring-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 2;
+  color: #333;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #083866;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 0;
+  height: 200px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.footer-logo img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer-contact {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 30px;
+  padding: 0 40px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: white;
+}
+/*--------------services------------------------------------*/
+
+
+  
+  /* SUBJECT SECTION */
+  .subjects-section {
+    background-color: light rgb(209, 201, 201);
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .subjects-section h2 {
+    color: #083866;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subjects-section p {
+    width: 100%;
+    max-width: 700px;
+    font-size: 18px;
+    margin: 0 20px;
+    color: #555;
+  }
+  
+  .subjects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .h3-heading{
+    font-size: 24px;
+  }
+  
+  .subjects-box, .levels-box {
+    background-color: #3e7dbd;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .subjects-box ul,
+  .levels-box ul {
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .rate-box {
+    background-color: #083866;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* CONTACT BANNER */
+  .contact-banner {
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .contact-banner img {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .contact-banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px; /* ensure it covers full image height */
+    background-color: rgba(17, 17, 18, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center vertically */
+    align-items: center;     /* center horizontally */
+    text-align: center;
+    
+  }
+  
+  
+  /* INFO CARDS */
+  .info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .card {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .yellow {
+    background-color: #fff8d6;
+  }
+  
+  .blue {
+    background-color: #d8f8f8;
+  }
+  
+  .pink {
+    background-color: #fbe4ff;
+  }
+  
