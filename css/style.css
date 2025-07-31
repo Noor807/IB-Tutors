@@ -151,13 +151,14 @@ header {
 }
 
 #subjects-home {
-    padding: 10px 20px;
-    background-color: #fff;
+    padding: 80px 0px;
+    background-color: #f2e2e2;
     text-align: center;
   }
+
   #subjects-home h2 {
-    font-size: clamp(15px, 1vw + 1rem, 24px);
-    margin-top: 20px;        /* or whatever value looks good */
+    font-size: clamp(15px, 1vw + 1rem, 46px);
+    margin-top: 10px;        /* or whatever value looks good */
     margin-bottom: 40px;
     color: #083866;     /* controls the space below the h2 */
   }
@@ -501,7 +502,19 @@ footer {
   /* Mobile: smaller height */
   @media (max-width: 480px) {
     .contact-banner img {
-      max-height: 250px;
+      max-height: 300px;
+    }
+    .contact-banner .overlay{
+    font-size: clamp(10px, 1vw + 1rem, 20px);
+
+    }
+    .contact-info {
+        font-size: clamp(12px, 1vw + 1rem, 20px);
+      font-weight: 600;
+    }
+    .overly h2{
+        font-size: clamp(10px, 1vw + 1rem, 18px);
+
     }
   }
   
@@ -514,7 +527,7 @@ footer {
   height: 100%; /* <-- Fix: match the parent (.contact-banner) height */
   background-color: rgba(17, 17, 18, 0.657);
   color: white;
-  font-size: clamp(15px, 1vw + 1rem, 24px);
+  font-size: clamp(10px, 1vw + 1rem, 24px);
   display: flex;
   flex-direction: column;
   justify-content: center;
