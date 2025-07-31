@@ -109,16 +109,20 @@ nav a:hover {
   font-size: 18px;
 }
 
-.subjects-section {
-    padding: 60px 20px;
-    background-color: #f0f5fc;
+#subjects-home {
+    padding: 10px 20px;
+    background-color: #fff;
     text-align: center;
   }
-  
-  .subjects-section h2 {
+  #subjects-home h2 {
     font-size: 36px;
-   margin: 40px 40px;
+    margin-top: 20px;        /* or whatever value looks good */
+    margin-bottom: 40px;
+    color: #083866;     /* controls the space below the h2 */
   }
+  
+  
+  
   
   .subjects-grid {
     display: grid;
@@ -130,7 +134,7 @@ nav a:hover {
   
   .subject-box {
     background-color: #D4AF37;
-    border: 1px solid #e4dcd4;
+    border: 1px solid #fff;
     color: #083866;
     border-radius: 12px;
     padding: 25px 20px;
@@ -169,7 +173,7 @@ nav a:hover {
     padding: 60px 20px;
     max-width: 1400px;
     margin: 40px auto;
-    border-top: 1px solid #ccc;
+    border: 1px solid white;
   }
   
   .faq-section h2 {
@@ -313,9 +317,9 @@ footer {
   padding: 40px 20px;
   min-height: 100px;
   display: flex;
-  background-color:rgba(13, 28, 45, 0.412);
+  background-color:#f7fbd8;
   justify-content: center;
-  border: 1px solid rgb(74, 74, 234);
+  
 }
 
 .subjects-section h2 {
@@ -345,25 +349,28 @@ footer {
 }
 
 .subjects-box,
-.levels-box {
-  background-color: #3e7dbd;
+.levels-box { 
+  background-color: #5942df;
   color: #fff;
   border-radius: 10px;
-  padding: 20px;
-  width: 200px;
+  padding:20px;
+  width: 250px;
   height: 250px;
 }
 
 .subjects-box ul,
 .levels-box ul {
-  list-style-type: disc;
-  text-align: left;
-  padding-left: 30px;
+  font-size: 20px;
+  text-align: center;
   margin-top: 30px;
+  margin-left: 10px;
+  
 }
 
+
+
 .rate-box {
-  background-color: #527393; /* IB theme color */
+  background-color: #253f5a; /* IB theme color */
   color: #fff;
   padding: 20px;
   margin: 50px auto;
@@ -582,7 +589,7 @@ section:nth-of-type(1) a:hover {
 
 .why-choose-us {
   padding: 40px 20px;
-  background-color: #f6ebeb;
+  background-color: #faf8f8;
   text-align: center;
   margin-bottom: 30px;
 }
