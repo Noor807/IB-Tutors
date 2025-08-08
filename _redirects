@@ -1,1 +1,5 @@
+# Redirect old Netlify domain to custom domain
 https://ib-tutors.netlify.app/*  https://www.ellitetutors.com/:splat  301!
+
+# Redirect non-www to www
+https://ellitetutors.com/*  https://www.ellitetutors.com/:splat  301!
