@@ -16,8 +16,11 @@ body {
 header {
   background-color: #083866;
   color: white;
-  position: relative;
+  position: sticky; 
+  top: 0;           
+  z-index: 1000;     
 }
+
 .header-container {
   width: 100%;
   max-width: 1700px;
@@ -28,6 +31,7 @@ header {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
 
 .logo-img {
   height: 80px;
